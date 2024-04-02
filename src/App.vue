@@ -33,34 +33,50 @@
               <el-button type="primary" class="header-itemButton">
                 <img src="./images/header-wallet.png" alt="">
                 <span>Download <br> Wallet</span>
-              </el-button>  
+              </el-button>
             </el-link>
-          </div> 
+          </div>
         </div>
         <div class="main-firstItem" id="about">
           <el-row class="firstItem-one">
             <el-col :span="24">What is MNT?</el-col>
           </el-row>
           <el-row class="firstItem-two">
-            <el-col :span="24">The MNT cryptocurrency is a peer-to-peer distributed network currency system. She can make payments to any corner of the world instantly and with low transaction fees. MNT is an open source project, a global payment network that does not have any central control node. Strict cryptography protocols enable this network system to fully protect the financial security of every user. Compared with Bitcoin's cryptocurrency system, MNT has faster transaction confirmation time, higher network transaction capacity and efficiency. MNT now has a complete industrial chain and sufficient liquidity, which is enough to prove that it is a mature, safe and stable commercial financial system.</el-col>
+            <el-col :span="24">The MNT cryptocurrency is a peer-to-peer distributed network currency system. She can
+              make payments to any corner of the world instantly and with low transaction fees. MNT is an open source
+              project, a global payment network that does not have any central control node. Strict cryptography
+              protocols enable this network system to fully protect the financial security of every user. Compared with
+              Bitcoin's cryptocurrency system, MNT has faster transaction confirmation time, higher network transaction
+              capacity and efficiency. MNT now has a complete industrial chain and sufficient liquidity, which is enough
+              to prove that it is a mature, safe and stable commercial financial system.</el-col>
           </el-row>
           <el-row class="firstItem-three" justify="space-between">
             <el-col :span="7" class="item-one">
               <img src="./images/game.png" alt="">
               <h3>Game</h3>
-              <p>To experience the prototype of the Metaverse in the simplest way with the Game. It can circulate freely between the systems by Game Props item certification on the blockchain, and can be realized or exchanged for items of equivalent value on other platforms . This allows the game to have The value attribute of the Metaverse.
+              <p>To experience the prototype of the Metaverse in the simplest way with the Game. It can circulate freely
+                between the systems by Game Props item certification on the blockchain, and can be realized or exchanged
+                for items of equivalent value on other platforms . This allows the game to have The value attribute of
+                the Metaverse.
               </p>
             </el-col>
             <el-col :span="7" class="item-two">
               <img src="./images/shopping.png" alt="">
               <h3>Shopping</h3>
-              <p>In Metaverse, you can enjoy a visible Shopping experience. Not only can the items be seen, the transaction process can be seen, the traceability of the items can be seen, and even the production process can be seen. Of course, you can initiate arbitration at any time if you are not satisfied with the product. To punish the seller, the ultimate goal is that everything related to the product is transparent to you.
+              <p>In Metaverse, you can enjoy a visible Shopping experience. Not only can the items be seen, the
+                transaction process can be seen, the traceability of the items can be seen, and even the production
+                process can be seen. Of course, you can initiate arbitration at any time if you are not satisfied with
+                the product. To punish the seller, the ultimate goal is that everything related to the product is
+                transparent to you.
               </p>
             </el-col>
             <el-col :span="7" class="item-three">
               <img src="./images/sports.png" alt="">
               <h3>Sports</h3>
-              <p>Enjoy a pleasant virtual sports time with friends by Metaverse Sports. Even if you stay at home, by wearable devices you can also exercise with your friends in the Metaverse. You could be completely immersed in sports during the experience, imagine that with your friends traveled through the Alps for an afternoon together on a stormy night, enjoying the beautiful Alpine afternoon sunshine.
+              <p>Enjoy a pleasant virtual sports time with friends by Metaverse Sports. Even if you stay at home, by
+                wearable devices you can also exercise with your friends in the Metaverse. You could be completely
+                immersed in sports during the experience, imagine that with your friends traveled through the Alps for
+                an afternoon together on a stormy night, enjoying the beautiful Alpine afternoon sunshine.
               </p>
             </el-col>
           </el-row>
@@ -68,19 +84,26 @@
             <el-col :span="7" class="item-one">
               <img src="./images/meeting-room.png" alt="">
               <h3>Meeting</h3>
-              <p>Even if you are thousands of mils away, you can still attend the company’s weekly Meetings on time. You can show everyone a perfect image without even wearing a formal dress, and you can participate in any meeting at any location anytime, anywhere.
+              <p>Even if you are thousands of mils away, you can still attend the company’s weekly Meetings on time. You
+                can show everyone a perfect image without even wearing a formal dress, and you can participate in any
+                meeting at any location anytime, anywhere.
               </p>
             </el-col>
             <el-col :span="7" class="item-two">
               <img src="./images/education.png" alt="">
               <h3>Education</h3>
-              <p>The Metaverse makes Education more vivid. In natural science courses, you can even see animals running and plants growing. You can even visit the planets in person when explaining the solar system or the universe. This must be a enjoy the process of Education.
+              <p>The Metaverse makes Education more vivid. In natural science courses, you can even see animals running
+                and plants growing. You can even visit the planets in person when explaining the solar system or the
+                universe. This must be a enjoy the process of Education.
               </p>
             </el-col>
             <el-col :span="7" class="item-three">
               <img src="./images/social.png" alt="">
               <h3>Socialize</h3>
-              <p>When we are still sharing text, pictures and videos, Metaverse will bring a new way of Socializing. Have you ever experienced a real feeling from the sharer? Sunshine, temperature, wind, rain, ground, and even pain, how beautiful the scenery is, how exciting it is to skydiving, these we will all become part of the Metaverse society.
+              <p>When we are still sharing text, pictures and videos, Metaverse will bring a new way of Socializing.
+                Have you ever experienced a real feeling from the sharer? Sunshine, temperature, wind, rain, ground, and
+                even pain, how beautiful the scenery is, how exciting it is to skydiving, these we will all become part
+                of the Metaverse society.
               </p>
             </el-col>
           </el-row>
@@ -94,52 +117,59 @@
           </el-row>
           <el-row class="secondItem-three" justify="space-between">
             <el-col :span="7" class="item-one">
-             <img src="./images/AI.png" alt="">
-             <div class="one-ri">
-              <h3>Virtual Reality</h3>
-              <ul>
-                <li><el-link type="primary" href="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.6806-6/383497737_1558985647974793_6092499567051103928_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=M5t_JWGzf5QAX_5ll2t&_nc_ht=scontent-hkg4-1.xx&oh=00_AfA74q53IAs7CHyfcgPIb6fRdALse767TXb49e5n18NftQ&oe=65FCD98A">Oculus Development</el-link></li>
-                <li><el-link type="primary" href="https://partners.playstation.net/">PlayStation VR Development</el-link></li>
-                <li><el-link type="primary" href="https://developers.google.com/vr">Google VR Development</el-link></li>
-                <li><el-link type="primary" href="https://developer.valvesoftware.com/wiki/Main_Page">Steam Valve Development</el-link></li>
-              </ul>
-             </div>
+              <img src="./images/AI.png" alt="">
+              <div class="one-ri">
+                <h3>Virtual Reality</h3>
+                <ul>
+                  <li><el-link type="primary"
+                      href="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.6806-6/383497737_1558985647974793_6092499567051103928_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=M5t_JWGzf5QAX_5ll2t&_nc_ht=scontent-hkg4-1.xx&oh=00_AfA74q53IAs7CHyfcgPIb6fRdALse767TXb49e5n18NftQ&oe=65FCD98A">Oculus
+                      Development</el-link></li>
+                  <li><el-link type="primary" href="https://partners.playstation.net/">PlayStation VR
+                      Development</el-link></li>
+                  <li><el-link type="primary" href="https://developers.google.com/vr">Google VR Development</el-link>
+                  </li>
+                  <li><el-link type="primary" href="https://developer.valvesoftware.com/wiki/Main_Page">Steam Valve
+                      Development</el-link></li>
+                </ul>
+              </div>
             </el-col>
             <el-col :span="7" class="item-two">
-             <img src="./images/robot.png" alt="">
-             <div class="two-ri">
-              <h3>Artificial Intelligence</h3>
-              <ul>
-                <li><el-link type="primary" href="https://www.tensorflow.org/">TensorFlow</el-link></li>
-                <li><el-link type="primary" href="https://pytorch.org/">PyTorch</el-link></li>
-                <li><el-link type="primary" href="https://h2o.ai/">H2O</el-link></li>
-                <li><el-link type="primary" href="https://www.shogun-toolbox.org/">Shogun</el-link></li>
-              </ul>
-             </div>
+              <img src="./images/robot.png" alt="">
+              <div class="two-ri">
+                <h3>Artificial Intelligence</h3>
+                <ul>
+                  <li><el-link type="primary" href="https://www.tensorflow.org/">TensorFlow</el-link></li>
+                  <li><el-link type="primary" href="https://pytorch.org/">PyTorch</el-link></li>
+                  <li><el-link type="primary" href="https://h2o.ai/">H2O</el-link></li>
+                  <li><el-link type="primary" href="https://www.shogun-toolbox.org/">Shogun</el-link></li>
+                </ul>
+              </div>
             </el-col>
             <el-col :span="7" class="item-three">
-             <img src="./images/smart-device.png" alt="">
-             <div class="three-ri">
-              <h3>Smart Devices</h3>
-              <el-scrollbar max-height="70px" class="scol">
-                <ul>
-                  <li><el-link type="primary" href="https://docs.arduino.cc/">Arduino</el-link></li>
-                  <li><el-link type="primary" href="https://openremote.io/developers/">OpenRemote</el-link></li>
-                  <li><el-link type="primary" href="https://thingsboard.io/docs/">ThingsBoard</el-link></li>
-                  <li><el-link type="primary" href="https://docs.thinger.io/">Thinger</el-link></li>
-                  <li><el-link type="primary" href="https://mainflux.readthedocs.io/en/latest/">MainFlux</el-link></li>
-                </ul>
-              </el-scrollbar>             
-             </div>            
+              <img src="./images/smart-device.png" alt="">
+              <div class="three-ri">
+                <h3>Smart Devices</h3>
+                <el-scrollbar max-height="70px" class="scol">
+                  <ul>
+                    <li><el-link type="primary" href="https://docs.arduino.cc/">Arduino</el-link></li>
+                    <li><el-link type="primary" href="https://openremote.io/developers/">OpenRemote</el-link></li>
+                    <li><el-link type="primary" href="https://thingsboard.io/docs/">ThingsBoard</el-link></li>
+                    <li><el-link type="primary" href="https://docs.thinger.io/">Thinger</el-link></li>
+                    <li><el-link type="primary" href="https://mainflux.readthedocs.io/en/latest/">MainFlux</el-link>
+                    </li>
+                  </ul>
+                </el-scrollbar>
+              </div>
             </el-col>
-          </el-row>  
+          </el-row>
           <el-row class="secondItem-four" justify="space-between">
             <el-col :span="7" class="item-one">
-              <el-link href="https://github.com/metabasenet/notice/releases/" :underline="false" class="a">
+              <el-link href="https://github.com/metabasenet/website/assets/Metabase-GreenPaper-V1.0.pdf"
+                :underline="false" class="a">
                 <el-button type="primary" class="button">
-                  <img src="./images/download.png" alt="">
-                  <span>DownLoad</span>
-                </el-button>                
+                  <img src="./images/greenPage.png" alt="">
+                  <span>Metabase&nbsp;GreenPaper</span>
+                </el-button>
               </el-link>
             </el-col>
             <el-col :span="7" class="item-two">
@@ -152,8 +182,8 @@
                   <li>Contract Support</li>
                   <li>SDK support for Developers</li>
                   <li>Modular Development</li>
-                </ul>          
-              </div>                        
+                </ul>
+              </div>
             </el-col>
             <el-col :span="7" class="item-three" :underline="false">
               <el-link href="https://github.com/metabasenet" class="a">
@@ -163,34 +193,36 @@
                     <h3>Source</h3>
                     <p>MNT Core GitHub</p>
                   </div>
-                </el-button>                
+                </el-button>
               </el-link>
             </el-col>
-          </el-row>              
+          </el-row>
         </div>
         <div class="main-thirdItem" id="contact">
           <el-row class="thirdItem-one">
             <el-col :span="24">CONTACT US</el-col>
-          </el-row> 
+          </el-row>
           <el-row class="thirdItem-two">
             <el-col :span="24">You can contact the MNT project development team at metabasenet@gmail.com</el-col>
-          </el-row>           
+          </el-row>
         </div>
       </el-main>
       <el-footer class="footer">
         <div class="footer-firstItem">
           <el-row class="firstItem-one">
-            <el-col :span="24">Copyright © 2011-2024 The copyright of the MNT project belongs to the developer, and all rights are reserved.</el-col>
-          </el-row> 
+            <el-col :span="24">Copyright © 2011-2024 The copyright of the MNT project belongs to the developer, and all
+              rights are reserved.</el-col>
+          </el-row>
           <el-row class="firstItem-two">
             <el-col :span="24">
               <ul>
                 <li><a href="https://twitter.com/Metabasenet"><img src="./images/twitter.png" alt=""></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=61557178406261"><img src="./images/facebook.png" alt=""></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61557178406261"><img src="./images/facebook.png"
+                      alt=""></a></li>
                 <li><a href="https://t.me/www_metabasenet_club"><img src="./images/telegram.png" alt=""></a></li>
               </ul>
             </el-col>
-          </el-row>               
+          </el-row>
         </div>
       </el-footer>
     </el-container>
@@ -642,7 +674,7 @@ header.sticky .nav-item ul li a {
   display: inline-block;
   font-size: 20px;
   color: #ffffff;
-  margin-left: 120px;
+  margin-left: 50px;
 }
 .secondItem-four .item-two {
   display: flex;
