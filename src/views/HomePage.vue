@@ -22,6 +22,18 @@
               </el-select>             
             </li> -->
                     </ul>
+                    <div class="hdNav">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                </div>
+                <div class="drop-down" ref="drop">
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#download">DOWNLOAD</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
                 </div>
             </el-header>
             <el-main class="main">
@@ -57,8 +69,8 @@
                             which is enough
                             to prove that it is a mature, safe and stable commercial financial system.</el-col>
                     </el-row>
-                    <el-row class="firstItem-three" justify="space-between">
-                        <el-col :span="7" class="item-one">
+                    <div class="firstItem-three" justify="space-between">
+                        <div class="item-one">
                             <img src="./images/game.png" alt="">
                             <h3>Game</h3>
                             <p>To experience the prototype of the Metaverse in the simplest way with the Game. It can
@@ -69,8 +81,8 @@
                                 value attribute of
                                 the Metaverse.
                             </p>
-                        </el-col>
-                        <el-col :span="7" class="item-two">
+                        </div>
+                        <div class="item-two">
                             <img src="./images/shopping.png" alt="">
                             <h3>Shopping</h3>
                             <p>In Metaverse, you can enjoy a visible Shopping experience. Not only can the items be
@@ -83,8 +95,8 @@
                                 product is
                                 transparent to you.
                             </p>
-                        </el-col>
-                        <el-col :span="7" class="item-three">
+                        </div>
+                        <div class="item-three">
                             <img src="./images/sports.png" alt="">
                             <h3>Sports</h3>
                             <p>Enjoy a pleasant virtual sports time with friends by Metaverse Sports. Even if you stay
@@ -96,10 +108,10 @@
                                 an afternoon together on a stormy night, enjoying the beautiful Alpine afternoon
                                 sunshine.
                             </p>
-                        </el-col>
-                    </el-row>
-                    <el-row class="firstItem-four" justify="space-between">
-                        <el-col :span="7" class="item-one">
+                        </div>
+                    </div>
+                    <div class="firstItem-four" justify="space-between">
+                        <div class="item-one">
                             <img src="./images/meeting-room.png" alt="">
                             <h3>Meeting</h3>
                             <p>Even if you are thousands of mils away, you can still attend the company’s weekly
@@ -108,8 +120,8 @@
                                 participate in any
                                 meeting at any location anytime, anywhere.
                             </p>
-                        </el-col>
-                        <el-col :span="7" class="item-two">
+                        </div>
+                        <div class="item-two">
                             <img src="./images/education.png" alt="">
                             <h3>Education</h3>
                             <p>The Metaverse makes Education more vivid. In natural science courses, you can even see
@@ -118,8 +130,8 @@
                                 system or the
                                 universe. This must be a enjoy the process of Education.
                             </p>
-                        </el-col>
-                        <el-col :span="7" class="item-three">
+                        </div>
+                        <div class="item-three">
                             <img src="./images/social.png" alt="">
                             <h3>Socialize</h3>
                             <p>When we are still sharing text, pictures and videos, Metaverse will bring a new way of
@@ -130,8 +142,8 @@
                                 all become part
                                 of the Metaverse society.
                             </p>
-                        </el-col>
-                    </el-row>
+                        </div>
+                    </div>
                 </div>
                 <div class="main-secondItem" id="download">
                     <el-row class="secondItem-one">
@@ -140,11 +152,11 @@
                     <el-row class="secondItem-two">
                         <el-col :span="24">#Release Notes&nbsp;|&nbsp;Upgrade Instructions</el-col>
                     </el-row>
-                    <el-row class="secondItem-three" justify="space-between">
-                        <el-col :span="7" class="item-one">
+                    <div class="secondItem-three" justify="space-between">
+                        <div class="item-one">
                             <img src="./images/AI.png" alt="">
                             <div class="one-ri">
-                                <h3>Virtual Reality</h3>
+                                <h3>VR</h3>
                                 <ul>
                                     <li><el-link type="primary"
                                             href="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.6806-6/383497737_1558985647974793_6092499567051103928_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=M5t_JWGzf5QAX_5ll2t&_nc_ht=scontent-hkg4-1.xx&oh=00_AfA74q53IAs7CHyfcgPIb6fRdALse767TXb49e5n18NftQ&oe=65FCD98A">Oculus
@@ -159,11 +171,11 @@
                                             Development</el-link></li>
                                 </ul>
                             </div>
-                        </el-col>
-                        <el-col :span="7" class="item-two">
+                        </div>
+                        <div class="item-two">
                             <img src="./images/robot.png" alt="">
                             <div class="two-ri">
-                                <h3>Artificial Intelligence</h3>
+                                <h3>AI</h3>
                                 <ul>
                                     <li><el-link type="primary" href="https://www.tensorflow.org/">TensorFlow</el-link>
                                     </li>
@@ -173,8 +185,8 @@
                                     </li>
                                 </ul>
                             </div>
-                        </el-col>
-                        <el-col :span="7" class="item-three">
+                        </div>
+                        <div class="item-three">
                             <img src="./images/smart-device.png" alt="">
                             <div class="three-ri">
                                 <h3>Smart Devices</h3>
@@ -194,19 +206,15 @@
                                     </ul>
                                 </el-scrollbar>
                             </div>
-                        </el-col>
-                    </el-row>
-                    <el-row class="secondItem-four" justify="space-between">
-                        <el-col :span="7" class="item-one">
-                            <el-link class="a" :underline="false"
-                                href="https://github.com/metabasenet/website/blob/master/src/assets/Metabase-GreenPaper-V1.0.pdf">
-                                <el-button type="primary" class="button" @click="greenPage">
-                                    <img src="./images/greenPage.png" alt="">
-                                    <span>Metabase&nbsp;GreenPaper</span>
-                                </el-button>
-                            </el-link>
-                        </el-col>
-                        <el-col :span="7" class="item-two">
+                        </div>
+                    </div>
+                    <div class="secondItem-four" justify="space-between">
+                        <el-link :underline="false" class="item-one"
+                            href="https://github.com/metabasenet/website/blob/master/src/assets/Metabase-GreenPaper-V1.0.pdf">
+                            <div class="img"><img src="./images/greenPage.png" alt=""></div>
+                            <div class="font">Metabase&nbsp;GreenPaper</div>
+                        </el-link>
+                        <div class="item-two">
                             <img src="./images/provide-planning.png" alt="">
                             <div class="two-ri">
                                 <h3>What we have?</h3>
@@ -218,19 +226,15 @@
                                     <li>Modular Development</li>
                                 </ul>
                             </div>
-                        </el-col>
-                        <el-col :span="7" class="item-three" :underline="false">
-                            <el-link href="https://github.com/metabasenet" class="a">
-                                <el-button type="primary" class="button">
-                                    <img src="./images/cat.png" alt="">
-                                    <div class="button-ri">
-                                        <h3>Source</h3>
-                                        <p>MNT Core GitHub</p>
-                                    </div>
-                                </el-button>
-                            </el-link>
-                        </el-col>
-                    </el-row>
+                        </div>
+                        <el-link :underline="false" href="https://github.com/metabasenet" class="item-three">
+                            <div class="img"><img src="./images/cat.png" alt=""></div>
+                            <div class="font">
+                                <h3>Source</h3>
+                                <p>MNT Core GitHub</p>
+                            </div>
+                        </el-link>
+                    </div>
                 </div>
                 <div class="main-thirdItem" id="contact">
                     <el-row class="thirdItem-one">
@@ -244,23 +248,18 @@
             </el-main>
             <el-footer class="footer">
                 <div class="footer-firstItem">
-                    <el-row class="firstItem-one">
-                        <el-col :span="24">Copyright © 2011-2024 The copyright of the MNT project belongs to the
-                            developer, and all
-                            rights are reserved.</el-col>
-                    </el-row>
-                    <el-row class="firstItem-two">
-                        <el-col :span="24">
-                            <ul>
-                                <li><a href="https://twitter.com/Metabasenet"><img src="./images/twitter.png"
-                                            alt=""></a></li>
-                                <li><a href="https://www.facebook.com/profile.php?id=61557178406261"><img
-                                            src="./images/facebook.png" alt=""></a></li>
-                                <li><a href="https://t.me/www_metabasenet_club"><img src="./images/telegram.png"
-                                            alt=""></a></li>
-                            </ul>
-                        </el-col>
-                    </el-row>
+                    <div class="firstItem-one">
+                        Copyright © 2011-2024 The copyright of the MNT project belongs to the
+                        developer, and all
+                        rights are reserved.
+                    </div>
+                    <ul>
+                        <li><a href="https://twitter.com/Metabasenet"><img src="./images/twitter.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61557178406261"><img
+                                    src="./images/facebook.png" alt=""></a></li>
+                        <li><a href="https://t.me/www_metabasenet_club"><img src="./images/telegram.png" alt=""></a>
+                        </li>
+                    </ul>
                 </div>
             </el-footer>
         </el-container>
@@ -269,14 +268,50 @@
 
 <script setup>
 // import useAppStore from './store/app';
+import { watchEffect, ref } from 'vue';
 import { useRouter} from 'vue-router';
+import $ from 'jquery';
 
+let drop = ref(null)
 // const router = useRouter();
-
+// let screenWidth = ref(window.innerWidth)
+let selectShow = ref(false)
 window.addEventListener("scroll", function () {
     var header = document.querySelector("header")
     header.classList.toggle("sticky", window.scrollY > 0);
 })
+
+$(
+    function () {
+        $(".hdNav").click(
+            function () {
+                $(".drop-down").slideToggle()
+
+                $("header").toggleClass("stick")
+            }
+        )
+    }
+)
+
+
+
+// var targetElement = document.getElementById("drop")
+// var hdNav = document.getElementById("select")
+// hdNav.addEventListener('click',()=>{
+//     targetElement.classList.add("highlight");
+// })
+// hdNav.addEventListener('click',function () {
+
+// })
+// watch(screenWidth,()=>{
+//     if (screenWidth <= 992) {
+//         window.removeEventListener("scroll", function () {
+//             var header = document.querySelector("header")
+//             header.classList.toggle("sticky", window.scrollY > 0);
+//         })
+//     }
+// })
+
 // const appStore = useAppStore();
 
 // const { t, locale } = useI18n();
@@ -305,7 +340,7 @@ window.addEventListener("scroll", function () {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 55px 0;
+    padding: 40px 0; 
     display: flex;
     justify-content: center;
     transition: 0.6s;
@@ -318,7 +353,6 @@ window.addEventListener("scroll", function () {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav-item .logo img {
@@ -358,9 +392,53 @@ window.addEventListener("scroll", function () {
     margin-left: 50px;
     transition: 0.6s;
 }
-
+.drop-down {
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    background-color: #fff;
+    /* transition: 0.2s; */
+}
+header.stick {
+    background-color: #fff;
+    padding: 5px;
+}
+.drop-down ul {
+    margin: 0 ;
+    padding: 0;
+    padding-left: 27px;
+}
+.drop-down ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+.drop-down ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #888;
+}
+.drop-down ul li:hover a {
+    color: #88cbf5;
+}
+.hdNav {
+    width: 40px;
+    padding: 6px 0 0;
+    background-color: #88cbf5;
+    display: none;
+    cursor: pointer;
+}
+.hdNav i {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 6px;
+}
 header.sticky {
-    padding: 40px 0;
+    padding: 42px 0;
     background-color: #ffffff;
 }
 
@@ -438,7 +516,6 @@ header.sticky .nav-item ul li a {
 
 .main-firstItem {
     width: 1140px;
-    height: 868px;
     margin: auto;
     padding: 150px 0;
 }
@@ -458,13 +535,15 @@ header.sticky .nav-item ul li a {
 
 .firstItem-three {
     margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .firstItem-three .item-one {
     width: 360px;
     height: 321px;
     text-align: center;
-
 }
 
 .firstItem-three .item-two {
@@ -532,6 +611,9 @@ header.sticky .nav-item ul li a {
 
 .firstItem-four {
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .firstItem-four .item-one {
@@ -606,7 +688,6 @@ header.sticky .nav-item ul li a {
 
 .main-secondItem {
     width: 1140px;
-    height: 476px;
     margin: auto;
     padding: 150px 0;
 }
@@ -624,6 +705,11 @@ header.sticky .nav-item ul li a {
     margin-bottom: 15px;
     text-align: center;
     margin: 20px 0px 75px;
+}
+.secondItem-three {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .secondItem-three .item-one {
@@ -643,7 +729,7 @@ header.sticky .nav-item ul li a {
 }
 
 .secondItem-three .item-one .one-ri {
-    margin-left: 80px;
+    margin-left: 55px;
     text-align: left;
 }
 
@@ -686,14 +772,15 @@ header.sticky .nav-item ul li a {
 }
 
 .secondItem-three .item-two .two-ri {
-    margin-left: 80px;
+    margin-left: 55px;
     text-align: left;
 }
 
 .two-ri h3 {
     margin: 0;
     margin-bottom: 1px;
-    font-size: 18px;
+    padding: 0;
+    font-size: 17px;
     color: #ffffff;
 }
 
@@ -729,7 +816,7 @@ header.sticky .nav-item ul li a {
 }
 
 .secondItem-three .item-three .three-ri {
-    margin-left: 80px;
+    margin-left: 55px;
     text-align: left;
 }
 
@@ -757,36 +844,32 @@ header.sticky .nav-item ul li a {
 
 .secondItem-four {
     margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.secondItem-four .item-one {
-    background-color: #ffffff;
-
-}
-
-.secondItem-four .item-one .a .button {
-    width: 332.5px;
+.secondItem-four  .item-one {
+    width: 293px;
     height: 109px;
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     background-color: #88cbf5;
     border-radius: 5px;
-
 }
 
-.secondItem-four .item-one .a .button img {
+
+.secondItem-four  .item-one .img img{
     width: 42px;
     height: 46px;
     margin-left: 20px;
 }
 
-.secondItem-four .item-one .a .button span {
-    display: inline-block;
+.secondItem-four  .item-one .font {
     font-size: 20px;
     color: #ffffff;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .secondItem-four .item-two {
@@ -806,7 +889,7 @@ header.sticky .nav-item ul li a {
 }
 
 .secondItem-four .item-two .two-ri {
-    margin-left: 80px;
+    margin-left: 55px;
     text-align: left;
 }
 
@@ -829,42 +912,33 @@ header.sticky .nav-item ul li a {
 }
 
 .secondItem-four .item-three {
-    background-color: #ffffff;
-}
-
-.secondItem-four .item-three .a .button {
-    width: 332.5px;
+    width: 293px;
     height: 109px;
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     background-color: #88cbf5;
     border-radius: 5px;
 }
 
-.secondItem-four .item-three .a .button img {
+
+.secondItem-four .item-three  .img img {
     width: 42px;
     height: 46px;
     margin-left: 20px;
 }
 
-.secondItem-four .item-three .a .button .button-ri {
+.secondItem-four .item-three  .font{
     font-size: 20px;
     color: #ffffff;
-    margin-left: 75px;
+    margin-left: 55px;
 }
 
-.secondItem-four .item-three .a .button .button-ri h3 {
+.secondItem-four .item-three .font h3 {
     font-size: 18px;
     color: #ffffff;
+    margin-left: 50px
 }
-
-.secondItem-four .item-three .button .a .button-ri p {
-    font-size: 14px;
-    color: #ffffff;
-}
-
 
 
 .main-thirdItem {
@@ -892,14 +966,12 @@ header.sticky .nav-item ul li a {
     margin: auto;
     margin-bottom: 10px;
 }
-
 .footer {
     padding: 0px;
 }
 
 .footer-firstItem {
     width: 1140px;
-    height: 80px;
     padding: 25px 0px;
     margin: auto;
 }
@@ -908,28 +980,213 @@ header.sticky .nav-item ul li a {
     font-size: 14px;
     color: #222222;
     text-align: center;
+    margin: auto;
 }
 
-.footer-firstItem .firstItem-two ul {
-    width: 500px;
+.footer-firstItem  ul {
     margin: auto;
+    margin-top:  10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
-.footer-firstItem .firstItem-two ul li {
+.footer-firstItem  ul li {
     list-style: none;
     margin-right: 10px;
 }
 
-.footer-firstItem .firstItem-two ul li img {
+.footer-firstItem  ul li img {
     width: 32px;
     height: 32px;
     border-radius: 100px;
 }
 
-.footer-firstItem .firstItem-two ul li:hover img {
+.footer-firstItem  ul li:hover img {
     background-color: #41acef;
+}
+
+@media (max-width:992px) {
+.nav {
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+    transition: 0.6s;
+}
+
+.nav-item {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item .logo img {
+    vertical-align: middle;
+    margin-right: 3px;
+    transition: 0.6s;
+    width: 38px;
+    height: 38px;
+    border-radius: 100px;
+    background-color: #888888;
+}
+
+.nav-item .logo span {
+    vertical-align: middle;
+    font-size: 20px;
+    transition: 0.6s;
+    color: #888888;
+}
+
+.hdNav {
+    display: block;
+}
+header.sticky {
+    padding: 5px;
+    /* height: 30px !important; */
+}
+.header {
+    width: 100%;
+    padding: 0px;
+    height: 1020px;
+    background: url(./images/header-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.header-item {
+    width: 70%;
+    height: 372px;
+    margin: auto;
+    text-align: center;
+    padding: 300px 0 200px;
+}
+.main-firstItem {
+    width: 70%;
+    margin: auto;
+    padding: 150px 0;
+}
+.firstItem-three .item-one {
+    width: 100%;
+    height: 321px;
+    text-align: center;
+
+}
+
+.firstItem-three .item-two {
+    width: 100%;
+    height: 321px;
+    text-align: center;
+}
+
+.firstItem-three .item-three {
+    width: 100%;
+    height: 321px;
+    text-align: center;
+}
+.firstItem-four {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.firstItem-four .item-one {
+    width: 100%;
+    height: 321px;
+    text-align: center;
+
+}
+
+.firstItem-four .item-two {
+    width: 100%;
+    height: 321px;
+    text-align: center;
+}
+
+.firstItem-four .item-three {
+    width: 100%;
+    height: 321px;
+    text-align: center;
+}
+.main-secondItem {
+    width: 70%;
+    margin: auto;
+    padding: 150px 0;
+}
+.secondItem-one {
+    width: 100%;
+    font-size: 40px;
+    color: #222222;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.secondItem-two {
+    width: 100%;
+    font-size: 16px;
+    color: #41acef;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 20px 0px 75px;
+}
+.secondItem-three .item-one {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.secondItem-three .item-two {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.secondItem-three .item-three {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.secondItem-four .item-one {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.secondItem-four .item-two {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.secondItem-four .item-three {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main-thirdItem {
+    width: 100%;
+    background: url(./images/map-image.jpg) no-repeat center;
+    background-size: cover;
+}
+.thirdItem-one {
+    width: 70%;
+}
+
+.thirdItem-two {
+    width: 70%;
+}
+.footer {
+    padding: 0px;
+    width: 100%;
+}
+
+.footer-firstItem {
+    width: 100%;
+}
+.header-item h3 {
+    font-size: 50px;
+}
+.header-item p {
+    font-size: 30px;
+}
+.nav-item ul {
+    display: none;
+}
+.secondItem-four .item-three .font p {
+    font-size: 18px;
+}
+.secondItem-four .item-one .font {
+    font-size: 18px;
+} 
 }
 </style>
