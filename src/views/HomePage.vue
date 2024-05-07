@@ -40,12 +40,15 @@
                 <div class="header">
                     <div class="header-item">
                         <h3>Global decentralized digital currency</h3>
-                        <p>Based on blockchain technology</p>
+                        <p>Based on Blockchain Technology</p>
                         <el-link href="https://github.com/metabasenet/notice/releases/" target="_self"
                             :underline="false">
-                            <el-button type="primary" class="header-itemButton">
+                            <el-button color="#88cbf5" class="header-itemButton">
                                 <img src="./images/header-wallet.png" alt="">
-                                <span>Download <br> Wallet</span>
+                               <div class="header-itemButtonText">
+                                <span class="DOWNLOAD">DOWNLOAD</span>
+                                <span class="Wallet">Wallet</span>
+                               </div>
                             </el-button>
                         </el-link>
                     </div>
@@ -147,10 +150,10 @@
                 </div>
                 <div class="main-secondItem" id="download">
                     <el-row class="secondItem-one">
-                        <el-col :span="24">DownLoad</el-col>
+                        <el-col :span="24">DOWNLOAD</el-col>
                     </el-row>
                     <el-row class="secondItem-two">
-                        <el-col :span="24">#Release Notes&nbsp;|&nbsp;Upgrade Instructions</el-col>
+                        <el-col :span="24">Release Notes&nbsp;|&nbsp;Upgrade Instructions</el-col>
                     </el-row>
                     <div class="secondItem-three" justify="space-between">
                         <div class="item-one">
@@ -355,6 +358,8 @@ $(
 
 .nav-item .logo img {
     vertical-align: middle;
+    width: 50px;
+    height: 50px;
     margin-right: 3px;
     transition: 0.6s;
 }
@@ -455,9 +460,10 @@ header.sticky .nav-item ul li a {
 
 .header {
     padding: 0px;
-    height: 1020px;
-    background: url(./images/header-bg.jpg) no-repeat center;
+    height: 869.33px;
+    background: url(./images/header-bg.png) no-repeat;
     background-size: cover;
+    background-position: 60% center;
 }
 
 .header-item {
@@ -472,6 +478,7 @@ header.sticky .nav-item ul li a {
     font-size: 60px;
     color: #fff;
     margin-bottom: 50px;
+    font-weight: 100;
 }
 
 .header-item p {
@@ -493,21 +500,28 @@ header.sticky .nav-item ul li a {
 }
 
 .header-itemButton img {
-    width: 64px;
-    height: 64px;
+    width: 42px;
+    height: 46px;
     margin-top: 0;
-    margin-left: 35px;
+    margin-left: 20px;
     margin-right: 25px;
 }
-
-.header-itemButton span {
-    margin-top: 5px;
-    font-size: 25px;
+.header-itemButtonText{
+    display: flex;
+    flex-direction: column;
+}
+.DOWNLOAD {
+    font-size: 19px;
     color: #ffffff;
     text-decoration: none;
     line-height: 30px;
+    font-weight: 600;
 }
-
+.Wallet{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 16px;
+}
 .main {
     padding: 0px;
 }
@@ -593,7 +607,7 @@ header.sticky .nav-item ul li a {
 }
 
 .firstItem-three .item-one img {
-    width: 112px;
+    width: 130px;
     height: 112px;
 }
 
@@ -727,7 +741,7 @@ header.sticky .nav-item ul li a {
 }
 
 .secondItem-three .item-one .one-ri {
-    margin-left: 55px;
+    margin-left: 27px;
     text-align: left;
 }
 
@@ -770,7 +784,7 @@ header.sticky .nav-item ul li a {
 }
 
 .secondItem-three .item-two .two-ri {
-    margin-left: 55px;
+    margin-left: 50px;
     text-align: left;
 }
 
@@ -814,7 +828,7 @@ header.sticky .nav-item ul li a {
 }
 
 .secondItem-three .item-three .three-ri {
-    margin-left: 55px;
+    margin-left: 50px;
     text-align: left;
 }
 
@@ -867,7 +881,7 @@ header.sticky .nav-item ul li a {
 .secondItem-four  .item-one .font {
     font-size: 20px;
     color: #ffffff;
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
 .secondItem-four .item-two {
@@ -887,7 +901,7 @@ header.sticky .nav-item ul li a {
 }
 
 .secondItem-four .item-two .two-ri {
-    margin-left: 55px;
+    margin-left: 50px;
     text-align: left;
 }
 
@@ -929,7 +943,7 @@ header.sticky .nav-item ul li a {
 .secondItem-four .item-three  .font{
     font-size: 20px;
     color: #ffffff;
-    margin-left: 55px;
+    margin-left: 50px;
 }
 
 .secondItem-four .item-three .font h3 {
@@ -1004,6 +1018,9 @@ header.sticky .nav-item ul li a {
 .footer-firstItem  ul li:hover img {
     background-color: #41acef;
 }
+ul {
+  list-style-type: none;
+}
 
 @media (max-width:992px) {
 .nav {
@@ -1068,7 +1085,6 @@ header.sticky {
     width: 100%;
     height: 321px;
     text-align: center;
-
 }
 
 .firstItem-three .item-two {
@@ -1081,6 +1097,7 @@ header.sticky {
     width: 100%;
     height: 321px;
     text-align: center;
+    margin-top: 74px;
 }
 .firstItem-four {
     display: flex;
@@ -1091,6 +1108,7 @@ header.sticky {
     width: 100%;
     height: 321px;
     text-align: center;
+    margin-top: 49px;
 
 }
 
