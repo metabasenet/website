@@ -249,9 +249,7 @@
             <el-footer class="footer">
                 <div class="footer-firstItem">
                     <div class="firstItem-one">
-                        Copyright © 2011-2024 The copyright of the MNT project belongs to the
-                        developer, and all
-                        rights are reserved.
+                        Copyright © 2011-2024 MNT under LONGPAY FINANCIAL INSTITUTION CO., LTD.
                     </div>
                     <ul>
                         <li><a href="https://twitter.com/Metabasenet"><img src="./images/twitter.png" alt=""></a></li>
